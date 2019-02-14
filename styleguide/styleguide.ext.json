@@ -1,0 +1,63 @@
+{
+  "ignore": [
+    "**/__tests__/**",
+    "**/*.test.{js,jsx,ts,tsx}",
+    "**/*.spec.{js,jsx,ts,tsx}",
+    "**/*.d.ts"
+  ],
+  "sections": [
+    {
+      "name": "Introduction",
+      "content": "docs/introduction.md"
+    },
+    {
+      "name": "Prerequisite",
+      "content": "docs/prerequisite.md"
+    },
+    {
+      "name": "Getting started",
+      "content": "docs/getting-started.md",
+      "sections": [
+        {
+          "name": "Installation",
+          "content": "docs/installation.md"
+        },
+        {
+          "name": "Configuration",
+          "content": "docs/configuration.md"
+        }
+      ]
+    },
+    {
+      "name": "JSdoc",
+      "description": "This part is generated from the JSdoc annotations in the source code.",
+      "content": "docs/js/jsdoc.md"
+    },
+    {
+      "name": "FAQ",
+      "content": "docs/faq.md"
+    },
+    {
+      "name": "Contribute",
+      "content": "docs/contribute.md",
+      "sections": [
+        {
+          "name": "Commands",
+          "content": "docs/commands.md"
+        },
+        {
+          "name": "Release",
+          "content": "docs/release.md"
+        }
+      ]
+    },
+    {
+      "name": "Changelog",
+      "content": "CHANGELOG.md"
+    },
+    {
+      "name": "Code of conduct",
+      "content": "CODE_OF_CONDUCT.md"
+    }
+  ]
+}

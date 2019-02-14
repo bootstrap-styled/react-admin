@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "react": "React",
+    "react-dom": "ReactDom"
+  },
+  "external": [
+    "react",
+    "react-dom"
+  ]
+}
