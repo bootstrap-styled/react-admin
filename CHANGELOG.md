@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bootstrap-styled/react-admin/compare/v1.0.1...v1.0.2) (2019-02-14)
+
+
+### Bug Fixes
+
+* **doc:** added [@bootstrap-styled](https://github.com/bootstrap-styled)/documentation layout ([c6dcf74](https://github.com/bootstrap-styled/react-admin/commit/c6dcf74))
+
 ## [1.0.1](https://github.com/bootstrap-styled/react-admin/compare/v1.0.0...v1.0.1) (2019-02-14)
 
 
