@@ -180,7 +180,6 @@
     "@semantic-release/git": "^7.0.8",
     "@semantic-release/github": "^5.2.10",
     "@semantic-release/npm": "^5.1.4",
-    "@yeutech-lab/documentation": "^1.0.17",
     "@yeutech-lab/test-polyfill": "^1.1.4",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
