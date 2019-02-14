@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bootstrap-styled/react-admin/compare/v1.0.0...v1.0.1) (2019-02-14)
+
+
+### Bug Fixes
+
+* **release:** GitHub release https://github.com/bootstrap-styled/react-admin ([dd49933](https://github.com/bootstrap-styled/react-admin/commit/dd49933))
+
 # 1.0.0 (2019-02-14)
 
 
