@@ -1,6 +1,6 @@
 {
   "name": "@bootstrap-styled/react-admin",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "React Admin component for Bootstrap-Styled. It use UI from @bootstrap-styled/ra-ui",
   "main": "lib/index.js",
   "homepage": "https://bootstrap-styled.github.io/react-admin",
