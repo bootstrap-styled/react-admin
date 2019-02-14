@@ -1,6 +1,6 @@
 {
   "name": "@yeutech/react-admin",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "React Admin component for Bootstrap-Styled. It use UI from @bootstrap-styled/ra-ui",
   "main": "lib/index.js",
   "homepage": "https://bootstrap-styled.yeutech.com/react-admin",
@@ -28,7 +28,8 @@
     "prestyleguide": "npm run jsdoc",
     "styleguide": "styleguidist server",
     "prestyleguide:build": "npm run jsdoc",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/react-admin is deprecated, use @bootstrap-styled/react-admin instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
