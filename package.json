@@ -342,22 +342,5 @@
     ]
   },
   "declinationId": "react",
-  "contributors": [],
-  "transitive": {
-    "name": "react-admin",
-    "scope": "bootstrap-styled",
-    "scopedName": "@bootstrap-styled/react-admin",
-    "homepage": "https://bootstrap-styled.github.io/react-admin",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bootstrap-styled/react-admin.git"
-    },
-    "bugs": {
-      "url": "https://github.com/bootstrap-styled/react-admin/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "contributors": []
 }
