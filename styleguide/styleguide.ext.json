@@ -21,17 +21,15 @@
         {
           "name": "Installation",
           "content": "docs/installation.md"
-        },
-        {
-          "name": "Configuration",
-          "content": "docs/configuration.md"
         }
       ]
     },
     {
-      "name": "JSdoc",
-      "description": "This part is generated from the JSdoc annotations in the source code.",
-      "content": "docs/js/jsdoc.md"
+      "name": "UI Components",
+      "components": [
+        "src/**/[A-Z]*.js",
+        "src/**/[A-Z]*/index.js"
+      ]
     },
     {
       "name": "FAQ",

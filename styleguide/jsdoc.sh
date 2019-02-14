@@ -6,6 +6,6 @@ set -e
 ## JSdoc function must be annotated @public for being exported in the markdown
 
 ## 1. Uncomment this line to generate the full docs
-npm run jsdoc-documentation 'src/**/*.js' docs/js/jsdoc.md
+#npm run jsdoc-documentation 'src/**/*.js' docs/js/jsdoc.md
 ## 2. Add in styleguide/styleguide.ext.json the section { "name": "JSdoc", "content": "docs/js/jsdoc.md" }
 
