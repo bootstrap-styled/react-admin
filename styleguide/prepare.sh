@@ -9,10 +9,10 @@ npx @rollup-umd/documentation-cli variable \
   PACKAGE_PEERS="$(npx rollup-umd-scripts peer npm-install-cmd)" \
   NODE_VERSION=$(node --version) \
   NPM_VERSION=$(npm --version) \
-  CI_REPOSITORY_URL=${CI_REPOSITORY_URL} \
-  CI_PROJECT_URL=${CI_PROJECT_URL} \
-  CI_PROJECT_NAMESPACE=${CI_PROJECT_NAMESPACE} \
-  CI_PROJECT_NAME=${CI_PROJECT_NAME} \
+  CI_REPOSITORY_URL="https://github.com/${TRAVIS_REPO_SLUG}.git" \
+  CI_PROJECT_URL="https://github.com/${TRAVIS_REPO_SLUG}" \
+  CI_PROJECT_NAMESPACE=$(echo $TRAVIS_REPO_SLUG | awk -F / '{print $1}') \
+  CI_PROJECT_NAME=$(echo $TRAVIS_REPO_SLUG | awk -F / '{print $2}') \
   IMG_SHIELD_PUBLISHING=$(npx rollup-umd-scripts publish status --badge)
 
 if [[ "$DECLINATION_ID" = cli  ]]; then
