@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/bootstrap-styled/react-admin/compare/v1.0.3...v1.0.4) (2019-03-11)
+
+
+### Bug Fixes
+
+* **dependencies:** upgrade all dependencies ([c1ae668](https://github.com/bootstrap-styled/react-admin/commit/c1ae668))
+
 ## [1.0.3](https://github.com/bootstrap-styled/react-admin/compare/v1.0.2...v1.0.3) (2019-03-04)
 
 
