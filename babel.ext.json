@@ -1,6 +1,0 @@
-{
-  "presets": [],
-  "plugins": [
-    "babel-plugin-inline-react-svg"
-  ]
-}
