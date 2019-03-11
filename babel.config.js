@@ -19,13 +19,14 @@ module.exports = merge({
   ],
   plugins: [
     'babel-plugin-array-includes',
+    'babel-plugin-inline-react-svg',
     '@babel/plugin-transform-runtime',
     '@babel/plugin-transform-async-to-generator',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-syntax-import-meta',
     '@babel/plugin-proposal-json-strings',
-    [
+      [
       '@babel/plugin-proposal-decorators',
       {
         legacy: true,
