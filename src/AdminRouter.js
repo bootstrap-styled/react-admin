@@ -1,5 +1,5 @@
-import CoreAdminRouter from 'ra-core/lib/CoreAdminRouter';
-import Loading from '@bootstrap-styled/ra-ui/lib/components/layout/Loading';
+import { CoreAdminRouter } from 'ra-core';
+import { Loading } from '@bootstrap-styled/ra-ui';
 
 const AdminRouter = CoreAdminRouter;
 
